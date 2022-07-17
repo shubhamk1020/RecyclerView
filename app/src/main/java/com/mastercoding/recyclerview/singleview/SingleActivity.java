@@ -55,9 +55,9 @@ public class SingleActivity extends AppCompatActivity {
     private void CreateList() {
 
         employees = new ArrayList<>();
-        for(int i = 0; i<20; i++){
+        for(int i = 0; i<2000; i++){
             Employee employee = new Employee();
-            employee.setName("Employee" +(i+1));
+            employee.setName("Employee " +(i+1));
             employees.add(employee);
         }
         adapter.SetEmployee(employees);
