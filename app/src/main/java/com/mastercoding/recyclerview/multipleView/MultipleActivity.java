@@ -80,6 +80,7 @@ public class MultipleActivity extends AppCompatActivity {
         adapter.setEmployees(employees);
             }
            private void ShowToast(String msg){
+
                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
            }
 }

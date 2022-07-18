@@ -78,7 +78,10 @@ public class MultipleAdapter extends RecyclerView.Adapter<MultipleAdapter.Multip
                 @Override
                 public void onClick(View v) {
 
-                }
+                    employee.setChecked(!employee.isChecked());
+                    imageView.setVisibility(employee.isChecked() ? View.VISIBLE : View.GONE);
+
+                    }
             });
         }
     }
