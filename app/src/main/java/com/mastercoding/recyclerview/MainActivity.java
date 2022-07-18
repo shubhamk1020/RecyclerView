@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         btn1 = findViewById(R.id.button1);
         btn2 = findViewById(R.id.button);
         btn3 = findViewById(R.id.single_btn);
+        btn4 = findViewById(R.id.multiple_btn);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
