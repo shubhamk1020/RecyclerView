@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerView">
         <activity
+            android:name=".multipleView.MultipleActivity"
+            android:exported="false" />
+        <activity
             android:name=".singleview.SingleActivity"
             android:exported="false" />
         <activity

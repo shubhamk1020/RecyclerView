@@ -9,12 +9,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.mastercoding.recyclerview.cardview.CardActivity;
+import com.mastercoding.recyclerview.multipleView.MultipleActivity;
 import com.mastercoding.recyclerview.normal.NormalRecycerView;
 import com.mastercoding.recyclerview.singleview.SingleActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1 , btn2, btn3;
+    Button btn1 , btn2, btn3, btn4;
 
 
     @Override
@@ -47,6 +48,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, SingleActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, MultipleActivity.class);
                 startActivity(i);
             }
         });
