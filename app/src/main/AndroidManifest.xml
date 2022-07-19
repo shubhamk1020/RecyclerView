@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerView">
         <activity
+            android:name=".swipe.SwipeTypeData"
+            android:exported="false" />
+        <activity
+            android:name=".multipleviewtype.MultipleViewtype"
+            android:exported="false" />
+        <activity
+            android:name=".swiperv.SwipeSelection"
+            android:exported="false" />
+        <activity
             android:name=".multipleView.MultipleActivity"
             android:exported="false" />
         <activity
